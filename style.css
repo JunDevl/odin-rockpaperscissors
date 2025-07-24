@@ -1,0 +1,36 @@
+body, header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.moves {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.moves button {
+  font-size: 3rem;
+  height: 10rem;
+  border-radius: 14px;
+}
+
+.won {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+.lost {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+#result {
+  font-size: 3rem;
+}
